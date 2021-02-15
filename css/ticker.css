@@ -1,0 +1,117 @@
+/**** TICKER  *****/
+.ticker {
+  /* height: 80px; */
+  width: 100%;
+  background: #E6E7E8;
+  /* margin-right: 40px; */
+}
+
+.ticker .dropdown {
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 80px;
+  font-size: 25px;
+  color: #4A4B51;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.ticker .dropdown button.dropbtn {
+  font-size: 25px;
+  color: #4A4B51;
+  font-family: 'Bebas Neue';
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-top: 10px;
+}
+
+.ticker .drop_arrow {
+  height: 20px;
+  width: 20px;
+  margin: auto;
+  border-bottom: 5px solid #5A2CDE;
+  border-right: 5px solid #5A2CDE;
+  transform: rotate(45deg);
+}
+
+.ticker-card {
+  margin-right: 0;
+
+}
+
+.league-area {
+  min-width: 60px;
+  height: 80px;
+  float: left;
+  /* margin-top: 15px; */
+}
+
+.nav-score {
+  height: 80px;
+  width: 134px;
+  background: #F7F9F8;
+  float: left;
+  font-family: 'Bebas Neue';
+  margin: 0 5px;
+  margin-bottom: 10px;
+}
+
+.league-image {
+  height: 80%;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.navbar-score-text {
+  font-size: 11px;
+  color: #6C6F74;
+  margin: 0px 8px;
+  height: 20px;
+  font-family: "Barlow", sans-serif;
+}
+
+.score .eachteam {
+  font-size: 18px;
+  height: 28px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4px ;
+}
+
+.text-left{
+  margin-left: 42px;
+}
+
+.score .eachteam .image {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin: 0 6px;
+  color: #4A4B51;
+  top: 0px;
+}
+
+/***** Navbar right left indicator ****/
+
+.nav-prev{
+  position: absolute;
+  height: 80px;
+  right: 0;
+  top: 0;
+}
+
+.nav-next{
+  position: absolute;
+  height: 80px;
+  left: 70px;
+  color: #5A2CDE;
+  top: 0;
+}

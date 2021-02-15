@@ -1,0 +1,172 @@
+/**** SHOWCASE - HERO IMAGE ****/
+#showcase {
+  color: #fff;
+  background: #333;
+  position: relative;
+  /* height: 930px; */
+}
+
+#showcase:before {
+  content: "";
+  background-image: linear-gradient(
+    to bottom  ,
+    rgba(64,64,64,1) 0%,
+    rgba(64,64,64,0) 0%,
+    rgba(64,64,64,0) 40%,
+    rgba(64,64,64,0.7) 90%)
+  ,url("../img/img-hero-homepage-nfl.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.showcase .showcase-content {
+  font-family: 'Bebas Neue';
+  font-size: 1.9rem;
+  line-height: 1;
+  color: #A8ABB4;
+}
+
+.showcase h2 {
+  font-family: 'Bebas Neue';
+  font-size: 5.4rem;
+  line-height: 0.85;
+}
+
+.showcase .line{
+  width: 12%;
+  height: 6px;
+  background: #6714e2;
+}
+
+.showcase p {
+  font-family: "Barlow";
+  font-size: 1.4rem;
+}
+
+
+
+.showcase-box{
+  position: relative;
+  /* margin-left: 240px; */
+}
+
+.showcase-box .team-icons{
+  position: absolute;
+  right: 0;
+  text-align: center;
+  margin-right: 14px;
+}
+
+.showcase-box .team-icons h6{
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.showcase-box .team-icons .team-icon{
+  width: 67px ;
+}
+
+.showcase-box-2{
+  margin: 0 150px;
+  position: relative;
+}
+
+#showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: start;
+  height: 830px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.showcase-content-container{
+  margin-top: 46px;
+  margin-bottom: 30px;
+}
+
+.showcase-content-container h6 {
+  font-size: 30px;
+  letter-spacing: 2.4px;
+  margin-bottom: 20px;
+  color: #A2A2A2;
+  font-weight: 100;
+}
+
+.showcase-content-container h1 {
+  font-size: 85px;
+  margin-bottom: 30px;
+  line-height: 75px;
+  position: relative;
+  padding-bottom:30px;
+  width: 517px;
+}
+
+.showcase-content-container h1::after{
+  content: "";
+  width: 14%;
+  height:8px;
+  background: #6714e2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.showcase-content-container h1 span {
+  border-bottom: solid 5px #4e1fcf;
+}
+
+.showcase-content-container p {
+  font-size: 23px;
+  font-family: "Barlow", sans-serif;
+  line-height: 36px;
+  text-align: left;
+}
+
+/***** Mega Search Bar */
+
+.wrapper input {
+  font-family: "Barlow";
+  width: 100%;
+  font-size: 23px;
+  background-color: #e6e6e6;
+  opacity: 90%;
+}
+
+.wrapper input:focus {
+  outline: none;
+}
+
+.searchbar-searchbtn {
+  background: #5e0bdb;
+  height: 4.2rem;
+  width: 6%;
+  position: relative;
+  cursor: pointer;
+}
+
+.searchbar-searchbtn .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/****Action Card Indicators */
+
+.action-card-indicator h1 {
+  font-size: 45px;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.toggler{
+  opacity: 100% !important;
+}

@@ -1,0 +1,51 @@
+/**** News Article Carousel ****/
+
+.article-card{
+  background-color: #242424;
+}
+
+.article-card .card-img{
+  border-radius: 0;
+}
+
+.article-card .card-img-overlay {
+  background-image: linear-gradient(
+    to bottom  ,
+    rgba(64,64,64,1) 0%,
+    rgba(64,64,64,0) 0%,
+    rgb(31, 31, 31) 100%,
+    rgb(0, 0, 0) 90%)
+}
+
+.article-card .card-img-overlay .news-card-logo{
+  padding: 4px 13px;
+  background-color: #707070;
+  border-radius: 6px;
+}
+
+.article-card .card-img-overlay .card-text{
+  font-family: "Bebas Neue", cursive;
+  font-size: 26px;
+  word-wrap: break-word;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.article-card .card-img-overlay .news-card-content p {
+  font-family: "Barlow";
+  font-size: 14px;
+}
+
+.article-card .card-img-overlay .news-card-content img{
+  height: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .article-card .card-img-overlay .card-text{
+    font-size: 16px;
+  }
+
+  .article-card .card-img-overlay .news-card-content p {
+    font-size: 12px;
+  }
+}

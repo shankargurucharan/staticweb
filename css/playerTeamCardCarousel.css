@@ -1,0 +1,125 @@
+/**** Player/Team Action Card- Carousel ****/
+.action-card{
+  background-color: #242424;
+  background-image: linear-gradient(
+    to top   ,
+    rgba(64,64,64,1) 0%,
+    rgba(64,64,64,0) 0%,
+    rgba(64,64,64,0) 40%,
+    rgba(54, 54, 54, 0.7) 90%);
+}
+
+.container-teams{
+  display: none;
+}
+
+.container-players{
+  display: none;
+}
+
+.active-card{
+  display: block;
+}
+
+/* .action-card .container{
+  margin: 0;
+  padding: 0;
+} */
+
+.action-card .card{
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.action-card .card-body{
+  padding: 0;
+}
+
+.action-card .card .card-img-top{
+  border-radius: 0;
+}
+
+.action-card .card-title{
+  font-family: "Bebas Neue", cursive;
+  background-color: #ECEEF1;
+  font-size: 45px;
+}
+
+.action-card .column{
+  text-align: center;
+  font-family: eurostile-extended, sans-serif;
+  font-style: normal;
+}
+.action-card .column-2{
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.action-card .column-1{
+  padding-left: 60px;
+}
+
+.action-card .column-3{
+  padding-right: 60px;
+}
+
+.action-card .column h6{
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.action-card .column h5{
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.26px;
+  margin-bottom: 19px;
+}
+
+.action-card .profile-badge{
+  font-family: "Barlow", sans-serif;
+  background-color: #4E1FCF;
+  color:  white;
+  letter-spacing: 1px;
+}
+
+.action-card .profile-badge a{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.action-card .profile-badge a:hover{
+    text-decoration: none;
+  }
+
+/**** TEAMS Action Card- Carousel ****/
+.card-content{
+  font-family: eurostile-extended, sans-serif;
+  color: #3D3D3D;
+}
+
+.action-card .card-content img{
+  width: 8rem;
+  height: 8rem;
+}
+
+.card-data {
+  border-left: 1px solid #e4e6e9;
+}
+
+.card-data h6{
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.card-data h5{
+  font-weight: 800;
+  font-size: 26px;
+}
+
+@media (max-width: 575.98px) {
+  .action-card .card-title{
+    font-size: 22px;
+  }
+}

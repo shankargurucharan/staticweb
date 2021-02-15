@@ -1,0 +1,269 @@
+/***** Navbar *****/
+.navbar {
+  background-color: black;
+  /* height: 80px;
+  padding: 0;
+  margin: 0; */
+}
+
+.nav-link {
+  color: rgb(243, 243, 243);
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  border-bottom: transparent 3px solid;
+  margin-top: 9px;
+  margin-right: 42px;
+  position: relative;
+  z-index: 700;
+  padding: 15px 0 ;
+  /* width: 60px; */
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.nav-link:after {
+  content: "";
+  width: 0%;
+  height: 5px;
+  background: #6714e2;
+  position: absolute;
+  bottom: -12.5%;
+  right: 0%;
+  transition: all 500ms ease;
+}
+
+.nav-link:hover::after{
+  width: 100%;
+}
+
+.nav-logo {
+  height: 27.54px;
+  width: 129.36;
+  margin-right: 42px;
+  cursor: pointer;
+}
+
+/***** Expanding Search button - Navbar  *****/
+.searchbox{
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 53px;
+  height: 56px;
+  transition: 0.4s linear;
+  overflow: hidden;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.searchbox__input{
+  display: block;
+  appearance: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: black;
+  padding: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.searchbox__input::placeholder{
+  color: black;
+  cursor: pointer;
+  transition: 0.4s linear;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+}
+
+.icon{
+  position: absolute;
+  right: calc(53px/2);
+  top: 50%;
+  transform: translate(50%, -50%);
+  transition: all 0.5s 0.3s ease;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.toggle-icon{
+  display: none;
+}
+
+.searchbox:focus-within{
+  max-width: 525px;
+}
+
+.searchbox:focus-within .searchbox__input{
+  background-color: white;
+  padding-right: 50px;
+}
+
+.searchbox:focus-within .searchbox__input::placeholder{
+  color: #909090;
+}
+
+/***** Hanburger Menu  *****/
+
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 2px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger {
+  width: 40px;
+  height: 1.5px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1.5px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger::before {
+  transform: translateY(-12.5px);
+}
+.menu-btn__burger::after {
+  transform: translateY(12.5px);
+}
+/* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/**** MEGA MENU  *****/
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu{
+  padding: 0;
+  width: 1424px;
+  height: 690px;
+  position: absolute;
+  top: 72px;
+  left: 0px;
+  border-radius: 10;
+  z-index: 6;
+}
+
+.dropdown-main{
+  font-family: "Barlow", sans-serif;
+  display: flex;
+}
+
+.league-logo{
+  margin-left: 53px;
+  margin-top: 58px;
+  padding: 0 ;
+  width: 57.96;
+  height: 168.66;
+}
+
+.main-menu{
+  margin-top: 50px;
+}
+
+.main-menu a{
+  font-size: 26px;
+  font-family: "Bebas Neue", cursive;
+  border-bottom: 1px solid #4B4C51 ;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-left: 0;
+  width: 252px;
+  color: #4B4C51;
+}
+
+.main-menu a:hover{
+  background-color: #ECEEF1 ;
+}
+
+.main-menu a:last-child{
+  border-bottom: none ;
+}
+
+.menu-column-1{
+  width: 520px;
+  height: 688px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #ECEEF1;
+
+}
+
+
+.menu-column-2{
+  width: 904px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-row-1{
+  display: flex;
+}
+
+.menu-row-2{
+  display: flex;
+}
+
+.regions{
+  height: 325px;
+  width: 300px ;
+  margin-right: 2px;
+  margin-bottom: 20px;
+}
+
+.regions:last-child{
+  margin-right: 0;
+}
+
+.region-name{
+  background-color: #4B4C51;
+  height: 60px;
+  color:  white;
+  padding: 20px 20px;
+  letter-spacing: 1px;
+  margin-bottom: 26px;
+}
+
+.dropdown-item{
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item img{
+  width: 40px;
+  margin-right: 6px;
+}
+
+.dropdown-item h6{
+  font-size: 18px;
+}

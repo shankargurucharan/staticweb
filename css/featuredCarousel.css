@@ -1,0 +1,43 @@
+/***** Carousel - Featured Article  *****/
+
+.featured-carousel .charity-content {
+  font-family: 'Bebas Neue';
+  font-size: 1.9rem;
+  line-height: 1;
+  color: #A8ABB4;
+}
+
+.featured-carousel h2 {
+  font-family: 'Bebas Neue';
+  font-size: 5.4rem;
+  line-height: 0.85;
+}
+
+.featured-carousel .line{
+  width: 12%;
+  height: 6px;
+  background: #6714e2;
+}
+
+.featured-carousel p {
+  font-family: "Barlow";
+  font-size: 1.4rem;
+}
+
+.featured-carousel .carousel-indicators li{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  position: relative;
+  box-shadow: 0 0 0 2px white;
+  z-index: 1;
+}
+
+.featured-carousel .carousel-indicators .active{
+  width: 1.2rem;
+  height: 1.2rem;
+  bottom: 2.5px;
+}

@@ -1,0 +1,67 @@
+/***** Birthday Carousel *****/
+.owl-carousel-3{
+  padding-top: 7.8rem;
+}
+
+.player-birth-card {
+  /* height: 600px; */
+  /* width: 1920; */
+  background-image: url("../img/bg.png");
+  /* margin: auto; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.circle_area {
+  width: 240px;
+  height: 240px;
+  background: #000;
+  border-radius: 50%;
+  margin: 30px auto auto;
+  cursor: pointer;
+  border: 5px solid #000;
+  position: relative;
+}
+
+.circle_area:hover {
+  border: 5px solid #5021D7;
+}
+
+.circle_area .image {
+  position: absolute;
+  width: 240px;
+  height: 280px;
+  border-radius: 0 0 120px 120px;
+  top: -45px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -5px;
+  margin-bottom: 20px;
+}
+
+.text-area {
+  margin-top: 30px;
+  font-family: 'Bebas Neue';
+  color: #ffffff;
+}
+
+.dob{
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.name {
+  font-size: 45px;
+  text-align: center;
+}
+
+.age {
+  font-size: 45px;
+  color: #6D6F75;
+  text-align: center;
+  margin-bottom: 53px;
+}

@@ -1,0 +1,105 @@
+/***** POLL  *****/
+
+.poll {
+  background-color: #F6F6F6;
+}
+
+.poll .outer_section {
+  padding: 6.2rem;
+}
+
+.poll .poll-content {
+  font-family: 'Bebas Neue';
+  font-size: 1.87rem;
+  line-height: 1;
+  color: #6D6F75;
+}
+
+.poll h5 {
+  font-family:  "Bebas Neue", cursive;
+  font-size: 1.4rem;
+}
+
+.poll h2 {
+  font-family: 'Bebas Neue';
+  font-size: 5.4rem;
+  line-height: 0.85;
+}
+
+.poll .line{
+  width: 12%;
+  height: 6px;
+  background: #6714e2;
+}
+
+.poll p {
+  font-family: "Barlow";
+  font-size: 1.4rem;
+}
+
+.poll .note {
+  font-family: "Barlow";
+  font-size: 0.9rem;
+}
+
+.option-1,
+.option-2,
+.option-3,
+.option-4 {
+  background-color: white;
+}
+
+.checkmark-1,
+.checkmark-2,
+.checkmark-3,
+.checkmark-4 {
+  width: 48px;
+  height: 48px;
+  background-color: #dfe2e6;
+  border-radius: 50%;
+  position: relative;
+  transition: background-color 0.4s;
+}
+
+.checkmark-1::after,
+.checkmark-2::after,
+.checkmark-3::after,
+.checkmark-4::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 20px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(48deg);
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+#check-1:checked ~ .checkmark-1::after,
+#check-2:checked ~ .checkmark-2::after,
+#check-3:checked ~ .checkmark-3::after,
+#check-4:checked ~ .checkmark-4::after {
+  opacity: 1;
+  border-right: 2px solid #4e1fcf;
+  border-bottom: 2px solid #4e1fcf;
+}
+
+@media (max-width: 575.98px) {
+  .poll .outer_section {
+    padding: 1.2rem;
+  }
+
+  .poll h5 {
+    font-family:  "Bebas Neue", cursive;
+    font-size: 1.4rem;
+  }
+
+  .poll h2 {
+    font-family: 'Bebas Neue';
+    font-size: 3.4rem;
+    line-height: 0.85;
+  }
+}

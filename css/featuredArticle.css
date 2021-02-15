@@ -1,0 +1,107 @@
+/**** Featured Article ***/
+.featured-article .article-content {
+  font-family: 'Bebas Neue';
+  font-size: 1.9rem;
+  line-height: 1;
+  color: #6D6F75;
+}
+
+.featured-article h2 {
+  font-family: 'Bebas Neue';
+  font-size: 5.4rem;
+  line-height: 0.85;
+}
+
+.featured-article .line{
+  width: 12%;
+  height: 6px;
+  background: #6714e2;
+}
+
+.featured-article p {
+  font-family: "Barlow";
+  font-size: 1.4rem;
+}
+
+
+
+
+
+/* .flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .article-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .article-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .article-column .article-column-1{
+  background: url("../img/img-thumbnail.png") no-repeat center center / cover;
+}
+
+.flex-columns .article-column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-columns .article-column .article-column-1,
+.flex-columns .article-column .carticle-olumn-2 {
+  height: 100%;
+}
+
+
+.article-spacing {
+  margin-top: 160px;
+  margin-bottom: 185px;
+  margin-right: 95px;
+  margin-left: 95px;
+}
+
+.content-container h6{
+  font-size: 30px;
+  color: #A2A2A2;
+  letter-spacing: 2.4px;
+}
+
+.content-container h1{
+  font-size: 110px;
+  width: 391px;
+  margin-bottom: 40px;
+  line-height: 92px;
+  position: relative;
+  padding-bottom:30px;
+}
+
+.content-container h1::after{
+  content: "";
+  width: 20%;
+  height: 8px;
+  background: #4E1FCF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.content-container p{
+  font-size: 23px;
+  line-height: 36px;
+  font-family: 'Barlow', sans-serif;
+  margin-bottom: 13px;
+  width: 777px;
+  height: 148px;
+} */

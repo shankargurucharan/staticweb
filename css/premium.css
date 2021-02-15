@@ -1,0 +1,42 @@
+/***** PREMIUM *****/
+.premium {
+  font-family: "Barlow", sans-serif;
+  color: black;
+  position: relative;
+  background: url("../img/bg-img-elite.png") no-repeat center center / cover;
+}
+
+.premium .content {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.premium .inner_area {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.premium .btn-primary-dark {
+  font-size: 1.1rem;
+}
+
+.premium .premium-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.premium .premium-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.premium .premium-content p{
+  width: 742px ;
+  margin-bottom: 33px
+  height: 588px;
+}
